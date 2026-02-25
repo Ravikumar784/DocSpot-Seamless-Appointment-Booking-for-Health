@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fbeee6, #f5f7fa); /* Soft Indian tones */
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+  background-color: white;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6f00; /* Indian saffron tone */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #e65100;
+}
