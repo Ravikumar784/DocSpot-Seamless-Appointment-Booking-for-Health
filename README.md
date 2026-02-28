@@ -1,6 +1,8 @@
 # DocSpot-Seamless-Appointment-Booking-for-Health
 MERN STACK project 
-Introduction  
+
+Introduction  :
+
 In today’s fast-paced digital world, accessing healthcare services efficiently has become a 
 necessity. Traditional appointment booking methods often involve long waiting times, 
 manual scheduling errors, and difficulty in managing patient records. To address these 
@@ -15,9 +17,10 @@ between the frontend and backend through RESTful APIs. With secure authenticatio
 role-based access control, the system ensures data privacy and authorized access for 
 patients, doctors, and administrators. 
 The primary objective of this project is to digitalize and simplify the healthcare appointment 
-booking process, making it more accessible, reliable, and efficient for all users. 
-Project Overview 
-1 
+booking process, making it more accessible, reliable, and efficient for all users.
+
+Project Overview :
+
 Purpose: 
 The purpose of DocSpot is to provide a digital solution for managing doctor appointments 
 efficiently and securely. Traditional appointment booking methods often involve manual 
@@ -42,7 +45,7 @@ Patient Features
  Receive confirmation and status updates 
  View booking history 
  Cancel or reschedule appointments 
-2 
+
 Doctor Features 
  Register and apply for doctor account 
  Await admin approval 
@@ -65,8 +68,10 @@ Technical Features
  Dynamic data updates without page reload 
 Architecture 
 The application follows a Client-Server Architecture using the MERN stack. 
-Frontend Architecture 
-3 
+
+Frontend Architecture :
+
+
 The frontend is developed using React.js with a component-based architecture. 
 Architecture Design 
  Reusable components such as Navbar, Forms, Dashboards, and Appointment Cards 
@@ -74,7 +79,8 @@ Architecture Design
  Axios for API communication 
  Bootstrap and Material UI for responsive design 
  Role-based dashboard rendering 
-Frontend Flow 
+Frontend Flow :
+
 User Interaction → Axios API Call → Backend Processing → Response → UI Update 
 Key Frontend Modules 
  Authentication Pages 
@@ -90,8 +96,9 @@ Structure
  Controllers – Business logic 
  Models – Database schemas 
  Middleware – Authentication and authorization 
-4 
-Backend Flow 
+
+Backend Flow :
+
 Client Request → Route → JWT Middleware → Controller → Database → Response 
 Backend Features 
  RESTful APIs 
@@ -114,7 +121,6 @@ Doctors Collection
 Fields: 
  userId 
  specialization 
-5 
  experience 
  availability 
  status 
@@ -178,7 +184,8 @@ npm start
 Frontend runs on: 
 http://localhost:3000 
 After completing these steps, the application will be successfully running on your local 
-system. 
+system.
+
 Folder Structure 
 Client Folder Structure 
 client/ 
@@ -211,6 +218,7 @@ server/
 ├── server.js 
 └── package.json 
 Running the Application 
+
 Starting the Backend Server 
 1. Open a terminal. 
 2. Navigate to the server directory: 
@@ -218,8 +226,8 @@ cd server
 3. Start the backend server: 
 npm start 
 If configured correctly, the backend will run on: 
-http://localhost:5000 
-9 
+http://localhost:5000
+
 Starting the Frontend Server 
 1. Open a new terminal window. 
 2. Navigate to the client directory: 
@@ -244,7 +252,6 @@ Authentication
 Authentication is implemented using JWT and bcrypt. 
  Passwords are hashed before storing 
  JWT generated on login 
-10 
  Token stored on client side 
  Token attached to request headers 
  Middleware verifies token 
